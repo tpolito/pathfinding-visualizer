@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: grey;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+canvas {
+  border: 1px solid black;
+  background-color: #fafafa;
+}
+
+.btn-container {
+  margin-top: 12px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 6px;
+  background-color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+h3 {
+  margin: 0;
+}
+
+.helper-start {
+  color: green;
+}
+
+.helper-end {
+  color: red;
+}
+
+.text {
+  color: white;
+}
+
+.text-start {
+  color: rgb(75, 246, 75);
+}
+
+.text-end {
+  color: rgb(179, 10, 10);
+}
